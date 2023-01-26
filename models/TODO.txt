@@ -1,0 +1,7 @@
+1. Each member has to create a student.
+2. All members must decide a time to connect in university to finalize the teacher.
+
+3. All props like door, windows, cameras, etc. pertaining to the scenes(classroom) must be created by Ameya and Abhishek.
+
+4. Hamza will create the Pointer
+5. Zainab will work on the screen.
