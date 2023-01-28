@@ -5,3 +5,6 @@ Youtube links:
 1. https://www.youtube.com/@WhatMakeArt
 2. https://www.youtube.com/watch?v=V59XKklgfDE&list=PL8G4GiXpgTvIF6mZav8besvx4mijnioav
 3. https://www.youtube.com/watch?v=lLItO9mBwxM
+
+Jira:
+https://smartlifestyle.atlassian.net/jira/software/projects/CS/boards/2
