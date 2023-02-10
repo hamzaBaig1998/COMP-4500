@@ -1,0 +1,17 @@
+Here are the steps to create a simple chair in Maya:
+
+1. Create a Polygon Cube: Start by creating a Polygon Cube in the front viewport. Right-click in the viewport and select "Create Polygon Cube."
+
+2. Reshape the Cube: Using the Scale tool, reshape the cube to form the seat of the chair. You can do this by scaling the cube along the Y-axis.
+
+3. Create Legs: Create four cylinder shapes for the legs of the chair. To create a cylinder, go to "Create" in the menu bar and select "Cylinder."
+
+4. Position Legs: Position the legs at the corners of the seat. You can use the Move tool to position the legs.
+
+5. Create Backrest: Create another cube and position it at the back of the seat to form the backrest of the chair. You can use the Scale tool to adjust the size of the backrest to your liking.
+
+6. Adjust Shapes: Adjust the shapes of the seat, legs, and backrest as needed to create the desired design for your chair.
+
+7. Add Textures: You can add textures to the chair to give it a more realistic look. Go to the Material Editor and create a new material. Assign the material to the chair, and add a texture to the color channel of the material.
+
+By following these steps, you can create a simple chair in Maya. If you're new to 3D modeling, it may take some time to get used to the tools and techniques involved, but with practice, you'll soon be able to create more complex models.
