@@ -1,0 +1,105 @@
+/* Utilities start */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #00cccc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #4c4c4c;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #008080;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #008080;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #006666;
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  background-color: #008080;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #006666;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Utilities end */
+
+#team-credits {
+  display: flex;
+  height: 350px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#end-credits {
+  width: 80%;
+  margin: auto 10%;
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  padding: 20px;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+#end-credits ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#end-credits li {
+  display: block;
+  margin: 0 20px;
+}
+
+/* Timeline */
