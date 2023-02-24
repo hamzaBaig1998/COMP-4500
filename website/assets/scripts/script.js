@@ -1,6 +1,6 @@
 const credits = document.getElementById("end-credits");
 const creditList = credits.querySelector("ul");
-const creditsHeight = credits.offsetHeight;
+const creditsHeight = credits.offsetHeight + 525;
 const speed = 30; // Adjust this value to change the speed of the animation
 
 function resetCredits() {
@@ -20,6 +20,6 @@ animateCredits();
 // Repeat function
 setInterval(() => {
   animateCredits();
-}, (creditsHeight / speed) * 1000 + 500);
+}, (creditsHeight / speed) * 1000 + 50);
 
 // timeline

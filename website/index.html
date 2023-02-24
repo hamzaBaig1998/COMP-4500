@@ -3,24 +3,484 @@
   <head>
     <meta charset="utf-8" />
     <title>COMP-4500 Code Sensei</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/styles/style.css" />
   </head>
   <body>
-    <h1 class="text-center text-white">Code Sensei</h1>
-    <!-- Timeline -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Code Sensei</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about-section"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#storyboard-section">Storyboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#milestone-section">Milestones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#timeline-section">Timeline</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#models-section">Models</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#animatics-section">Animatics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team-credits">End Credits</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- <h1 class="text-center text-white">Code Sensei</h1> -->
+    <section id="about-section">
+      <div class="container col-xxl-10 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./assets/images/robot.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Robot"
+              loading="lazy"
+            />
+          </div>
+          <div class="col-lg-6 text-white">
+            <h1 class="text-white display-5 fw-bold lh-1 mb-3">Code Sensei</h1>
+            <p class="lead">
+              <!-- In this animated story, a wise robot takes on the role of a
+              sensei, teaching a group of young and enthusiastic robots how to
+              code. Through engaging lessons, the small robots learn about
+              programming concepts in python. The robots are notorious but the
+              sensei is determined to teach them coding. -->
+              In the year 2205, robots had taken over all human tasks and humans
+              were confined to their homes. They were unaware of what was
+              happening in the world of robots. Robots were programmed by a
+              certain special human to perform tasks and obey orders as
+              slaves.<br /><br />
+              A wise robot takes on the role of a sensei, teaching a group of
+              young and enthusiastic robots how to code. Through engaging
+              lessons, the small robots learn about programming concepts in
+              python.The robots are notorious but the sensei is determined to
+              teach them coding.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Storyboard -->
+    <section id="storyboard-section">
+      <h1 class="heading">Storyboard</h1>
+      <!-- Carousel -->
+      <!-- TODO: Remove carousel in small screen and add images -->
+      <div class="container col-xxl-10">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner custom-height">
+            <div class="carousel-item active">
+              <img
+                src="./assets/images/Storyboard_1.png"
+                class="d-block w-100 custom-height"
+                alt="storyboard_1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/Storyboard_2.png"
+                class="d-block w-100 custom-height"
+                alt="storyboard_2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/Storyboard_3.png"
+                class="d-block w-100 custom-height"
+                alt="storyboard_3"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/Storyboard_4.png"
+                class="d-block w-100 custom-height"
+                alt="storyboard_4"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Milestone -->
+    <section id="milestone-section" class="mb-5">
+      <div id="milestone">
+        <h1>Milestones</h1>
+        <br />
+        <div class="process-wrapper">
+          <div id="progress-bar-container">
+            <ul>
+              <li class="step step01 active">
+                <div class="step-inner">15<sup>th</sup> Feb.</div>
+              </li>
+              <li class="step step02">
+                <div class="step-inner">10<sup>th</sup> Mar.</div>
+              </li>
+              <li class="step step03">
+                <div class="step-inner">10<sup>th</sup> April.</div>
+              </li>
+            </ul>
 
+            <div id="line">
+              <div id="line-progress"></div>
+            </div>
+          </div>
+
+          <div id="progress-content-section">
+            <div class="section-content first active">
+              <h2>15<sup>th</sup> Febuary</h2>
+              <p>
+                Final storyboard and animation <br />
+                Plan out the different camera angles<br />
+                Basic models of the characters and props should be created<br />
+                Timings will be finalized – including number of frames per
+                scene<br />
+              </p>
+            </div>
+
+            <div class="section-content second">
+              <h2>10<sup>th</sup> March</h2>
+              <p>
+                Final models of all our objects will be completed<br />
+                60%-70% of the scenes should be fully rendered, including
+                lighting and camera positions
+              </p>
+            </div>
+
+            <div class="section-content third">
+              <h2>10<sup>th</sup> April</h2>
+              <p>
+                Audio and the remaining scenes will be added<br />
+                The final animation will be completed and reviewed for
+                adjustments
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Timeline -->
+    <section id="timeline-section">
+      <h1>Tasks & Timeline</h1>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">30<sup>th</sup> January</div>
+          <div class="timeline-content">
+            <h3>Initial Design Phase</h3>
+            <p>
+              Final Storyboard<br />
+              Designing Characters<br />
+              Designing Scene<br />
+              Designing Props<br />
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">8<sup>th</sup> Febuary</div>
+          <div class="timeline-content">
+            <h3>Initial Modeling Phase</h3>
+            <p>Modeling Characters<br />Modelling Scene</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">10<sup>th</sup> Febuary</div>
+          <div class="timeline-content">
+            <h3>Initial Animation Phase</h3>
+            <p>Modeling Props<br />Simple Movement Animation</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">15<sup>th</sup> March</div>
+          <div class="timeline-content">
+            <h3>Screen Writing Phase</h3>
+            <p>Script/voiceovers</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">20<sup>th</sup> March</div>
+          <div class="timeline-content">
+            <h3>Animation Review Phase</h3>
+            <p>Animation<br />Review draft</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">30<sup>th</sup> March</div>
+          <div class="timeline-content">
+            <h3>Final Draft</h3>
+            <p>Final Animation</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Models -->
+    <section id="models-section">
+      <h1 class="heading">Models</h1>
+      <!-- TODO: Remove carousel in small screen and add images -->
+      <div class="container col-xxl-10">
+        <div id="modelscarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#modelscarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#modelscarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#modelscarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#modelscarousel"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner custom-height">
+            <div class="carousel-item active">
+              <img
+                src="./assets/images/bot-1.png"
+                class="d-block w-100 custom-height"
+                alt="bot_1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/bot-2.png"
+                class="d-block w-100 custom-height"
+                alt="bot_2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/bot-3.jpeg"
+                class="d-block w-100 custom-height"
+                alt="bot_3"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/bot-4.png"
+                class="d-block w-100 custom-height"
+                alt="bot_4"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#modelscarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#modelscarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Animatics -->
+    <section id="animatics-section">
+      <h1 class="heading">Animatics</h1>
+      <!-- <div class="embed-responsive embed-responsive-21by9">
+        <video
+          class="embed-responsive-item"
+          muted=""
+          autoplay=""
+          loop=""
+          src="./assets/videos/animatic.mp4"
+          type="video/mp4"
+          width="950"
+        >
+          <img src="./assets/images/bot-1.png" alt="Robot" />
+        </video>
+      </div> -->
+      <div class="mx-5">
+        <video width="100%" height="600" controls>
+          <source src="./assets/videos/animatic.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
     <!-- Team Credits -->
     <section id="team-credits">
+      <h1 class="heading">End Credits</h1>
       <div id="end-credits">
-        <ul>
-          <li>Director: John Smith</li>
-          <li>Producer: Jane Doe</li>
-          <li>Writer: James Johnson</li>
-          <li>Cinematographer: Sarah Lee</li>
-          <li>Editor: Michael Brown</li>
+        <ul class="lead">
+          <li class="heading mb-5">Code Sensei Team</li>
+          <li class="sub-heading">Storyboard</li>
+          <li>Zainab Latif</li>
+          <li>Hamza Baig</li>
+          <li class="sub-heading">Webpage</li>
+          <li>Ameya Ade</li>
+          <li>Hamza Baig</li>
+          <li class="sub-heading">Character Modelling</li>
+          <li>Zainab Latif</li>
+          <li>Hamza Baig</li>
+          <li>Ameya Ade</li>
+          <li>Abhishek Yawalkar</li>
+          <li class="sub-heading">Scene Design</li>
+          <li>Ameya Ade</li>
+          <li>Abhishek Yawalkar</li>
+          <li class="sub-heading">Prop Design</li>
+          <li>Zainab Latif</li>
+          <li>Hamza Baig</li>
+          <li class="sub-heading">Script</li>
+          <li>Zainab Latif</li>
+          <li>Hamza Baig</li>
+          <li class="sub-heading">voiceover</li>
+          <li>Abhishek Yawalkar</li>
+          <li class="sub-heading">Animation</li>
+          <li>Zainab Latif</li>
+          <li>Hamza Baig</li>
+          <li>Ameya Ade</li>
+          <li>Abhishek Yawalkar</li>
+
+          <li class="sub-heading">Code Sensei</li>
         </ul>
       </div>
     </section>
+    <footer>
+      <div
+        class="d-flex flex-column flex-sm-row justify-content-center py-2 mt-4 bg-dark"
+      >
+        <p class="lead text-white text-center">&copy; 2023 Code Sensei.</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="assets/scripts/script.js"></script>
+    <script>
+      $(".step").click(function () {
+        $(this).addClass("active").prevAll().addClass("active");
+        $(this).nextAll().removeClass("active");
+      });
+
+      $(".step01").click(function () {
+        $("#line-progress").css("width", "9%");
+        $(".first").addClass("active").siblings().removeClass("active");
+      });
+
+      $(".step02").click(function () {
+        $("#line-progress").css("width", "50%");
+        $(".second").addClass("active").siblings().removeClass("active");
+      });
+
+      $(".step03").click(function () {
+        $("#line-progress").css("width", "100%");
+        $(".third").addClass("active").siblings().removeClass("active");
+      });
+    </script>
   </body>
 </html>
