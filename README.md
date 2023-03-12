@@ -12,8 +12,12 @@ In the year 2205, robots had taken over all human tasks and humans were confined
 
 A wise robot takes on the role of a sensei, teaching a group of young and enthusiastic robots how to code. Through engaging lessons, the small robots learn about programming concepts in python.The robots are notorious but the sensei is determined to teach them coding.
 
+# Website
+https://latifz.github.io/https://latifz.github.io/
+
 # Team
 * Zainab Latif
 * Hamza Baig
 * Ameya Ade
 * Abhishek Yawalkar
+
